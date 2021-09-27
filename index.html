@@ -1,0 +1,60 @@
+<html>
+<head> 
+    <title>Image Recognition </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js">
+    </script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<center>
+<h3 id="header">Image Recognition</h3>
+<br>
+<br>
+<p> The model is trained to identify these objects</p>
+<b id="object">
+    <hr>
+    Dad
+    <hr>
+    Mom
+    <hr>
+     Me
+    <hr>
+    Brother
+  <hr>
+</b>
+<br>
+<br>
+<label id="WV"> Webcam View</label>
+<div id="camera"></div>
+<br> 
+<br>
+<div id="result"></div>
+<br>
+<br>
+<button id="take_shot" onclick="take_pic()">Capture Image</button>
+<br>
+<br>
+<button id="look" onclick="check()">Identify Image</button>
+<br>
+<br>
+<p id="object_name">  Object: <span id="name_object"></span></p>
+
+<p id="object_name2">  Accuracy: <span id="Acc_object"></span></p>
+</center>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

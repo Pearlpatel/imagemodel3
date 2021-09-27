@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to right top, #d95151, #e36f4c, #e88c4d, #eaa855, #e9c465, #e3d26e, #dddf79, #d5ec88, #c8f08c, #b9f392, #a9f699, #97f9a2);
+}
+#header{
+    font-weight: 700;
+    font-size: xx-large;
+    font-family: 'Stick No Bills', sans-serif;
+    color:black;
+}
+button{
+   background-image: linear-gradient(to right top, #efc44d, #eece57, #ecd862, #ebe26e, #e9ec7a);
+    border-color: black;
+    font-size: medium;
+    font-family: 'Cabin', sans-serif;
+    color:black;
+    }
+    #object_name,#object_name2{
+        color: black;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #camera,#result{
+        border-style:dotted;
+        border-color:rgb(0, 0, 0);
+        width: 350px;
+        height:350px;
+    }
+    #WV{
+        font-weight: 700;
+        font-size: medium;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
